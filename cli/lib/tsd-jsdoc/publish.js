@@ -138,7 +138,11 @@ var keepTags = [
     "param",
     "returns",
     "throws",
-    "see"
+    "see",
+    "db",
+    "dbpost",
+    "dbpre",
+    "rpc"
 ];
 
 // parses a comment into text and tags
