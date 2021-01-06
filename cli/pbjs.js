@@ -200,7 +200,8 @@ exports.main = function main(args, callback) {
     }
 
     var parseOptions = {
-        "keepCase": argv["keep-case"] || false
+        "keepCase": argv["keep-case"] || false,
+        "alternateCommentMode": argv["alternate-comment-mode"] || false
     };
 
     // Read from stdin
